@@ -8,7 +8,6 @@ interface IMenuItem{
 }
 
 export default function MenuItem({title, address, Icon}: IMenuItem){
-    console.log(Icon)
     return (
         <div>
             <Link href={address} className="mx-4 lg:mx-6 hover:text-amber-600">
